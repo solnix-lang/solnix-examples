@@ -1,0 +1,9 @@
+unit trace_raw_sys_enter {
+    section: "raw_tracepoint/sys_enter";
+    license: "GPL";
+
+    // Current backend for raw_tracepoint ignores the unit body.
+    // This is a stub that simply returns 0.
+    return 0;
+}
+
